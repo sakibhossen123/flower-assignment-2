@@ -1,0 +1,125 @@
+* {
+  font-family: "Noto Serif", serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* shared style */
+.max-width {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.marzin {
+  margin-top: 120px;
+}
+/* nav style */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  gap: 48px;
+}
+.nav-item {
+  list-style: none;
+}
+.nav-links {
+  text-decoration: none;
+  font-weight: 400;
+  color: #8987a1;
+}
+#home {
+  font-weight: 700;
+  color: #252432;
+}
+#cart {
+  color: #000000;
+  list-style: none;
+}
+/* nav style finidh from here */
+/* banner start from here */
+.banner {
+  display: flex;
+  align-items: flex-end;
+}
+.always {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #000000;
+}
+.fresh-flower {
+  font-weight: 700;
+  font-size: 4rem;
+  color: #e95a08;
+}
+.banner-description {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #00000080;
+}
+.banner-content {
+  padding: 10px;
+}
+/* banner finish */
+/* plant section */
+.plant-title {
+  text-align: center;
+}
+.our {
+  font-weight: 700;
+  font-size: 3.8rem;
+  color: #e95a08;
+}
+.plants {
+  font-weight: 700;
+  font-size: 3.8rem;
+  color: #000000;
+}
+.plant-descripion {
+  font-weight: 400;
+  font-size: 1.2rem;
+  color: #00000080;
+}
+.card-item {
+  text-align: center;
+  margin-top: 50px;
+
+  max-width: 270px;
+  /* height:300px ; */
+}
+.card-parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.product-name {
+  font-weight: 500;
+  font-size: 1.2rem;
+  color: #111111;
+}
+.product-price {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+.btn-primary {
+  background-color: #e95a08;
+  border: none;
+  margin: 30px 0px;
+  padding: 8px;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 1rem;
+  width: 270px;
+}
+
+@media screen and (max-width: 576px) {
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 0 auto;
+  
+}
+}

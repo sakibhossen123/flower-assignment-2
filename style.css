@@ -114,76 +114,101 @@
   width: 270px;
 }
 /* lover section */
-.lover-parent{
+.lover-parent {
   display: flex;
 }
-.lover-size{
+.lover-size {
   max-width: 650px;
   margin-top: -20px;
-
-  
 }
-.lover-title{
+.lover-title {
   margin: 50px;
   font-weight: 500;
   font-size: 3.25rem;
 }
-.lover-description{
+.lover-description {
   margin: 50px;
   font-weight: 400;
   font-size: 1.25rem;
   color: #00000080;
 }
-.lover-content{
+.lover-content {
   margin: 20px;
 }
 /* join section */
-.join-parent{
-  background-image: url('./assets/news-letter-bg.png');
+.join-parent {
+  background-image: url("./assets/news-letter-bg.png");
   max-width: 1440px;
   height: 500px;
   margin: 0 auto;
 }
-.join-items{
+.join-items {
   text-align: center;
   padding-top: 200px;
 }
-.join-content{
-  
+.join-content {
 }
-.join-title{
+.join-title {
   font-weight: 700;
-  font-size:3.25rem;
+  font-size: 3.25rem;
   color: white;
-  
 }
-.join-items input{
+.join-items input {
   border: none;
   width: 600px;
-  height:40px ;
+  height: 40px;
   margin-top: 20px;
   padding: 8px 20px;
   font-weight: 400;
   color: #00000080;
-  
 }
-.join-items button{
+.join-items button {
   width: 180px;
-  height:40px;
-  background-color: #E95A08;
+  height: 40px;
+  background-color: #e95a08;
   font-weight: 600;
-  color: #FFFFFF;
+  color: #ffffff;
   border: none;
   margin-top: 20px;
-  
-
 }
-.input-parent{
+.input-parent {
   display: flex;
   justify-content: center;
 }
 /* join section close */
-
+/* footer start */
+.footer-item-parent{
+  width: 200px;
+  margin: 48px;
+}
+.footer-item-icon{
+  width: 216px;
+  margin: 48px;
+}
+.footer-item-parent ul li {
+  list-style: none;
+  margin: 32px;
+  
+}
+.footer-item-parent ul li a {
+  text-decoration: none;
+  color: #6b7280;
+  font-weight: 400;
+  
+}
+.display-flex {
+  display: flex;
+}
+.footer-title {
+  width: 350px;
+  height:17px;
+  margin: 30px;
+}
+.footer-title p {
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #00000080;
+}
 
 @media screen and (max-width: 576px) {
   .banner {
@@ -191,6 +216,5 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 0 auto;
-  
-}
+  }
 }

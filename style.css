@@ -290,6 +290,11 @@
 /* cart section complete */
 
 @media screen and (max-width: 576px) {
+  
+.navbar ul :nth-child(1){
+  display: none;
+}
+
   .banner {
     flex-direction:column-reverse;
     

@@ -294,6 +294,6 @@
   gap: 20px;
 }
 .lover-parent{
-  /* flex-direction: column; */
+  flex-direction: column;
 }
 }

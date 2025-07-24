@@ -177,18 +177,21 @@
 /* join section close */
 /* footer start */
 .footer-item-parent {
-  width: 200px;
-  margin: 48px;
+  max-width: 600px;
+  margin:20px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  
 }
 .footer-item-icon {
-  width: 216px;
-  margin: 48px;
+  max-width: 230px;
+  margin: 35px;
 }
-.footer-item-parent ul li {
+.footer-item-parent li {
   list-style: none;
-  margin: 32px;
+  margin: 15px;
 }
-.footer-item-parent ul li a {
+.footer-item-parent li a {
   text-decoration: none;
   color: #6b7280;
   font-weight: 400;
@@ -197,8 +200,7 @@
   display: flex;
 }
 .footer-title {
-  width: 350px;
-  height: 17px;
+  max-width: 350px;
   margin: 30px;
 }
 .footer-title p {
@@ -206,6 +208,7 @@
   font-size: 1.25rem;
   color: #00000080;
 }
+
 /* latest section */
 .latest-title,
 .latest-description {
@@ -230,7 +233,6 @@
   display: flex;
 }
 .latest-cart {
-  /* box-sizing: border-box; */
   width: 360px;
   height: 206px;
   border-radius: 20px;
@@ -279,6 +281,7 @@
 #cart-3 {
   background-image: url("./assets/deal-zabo.png");
 }
+/* cart section complete */
 
 @media screen and (max-width: 576px) {
   .banner {
@@ -287,31 +290,36 @@
     justify-content: flex-start;
     margin-left: 0 auto;
   }
-.card-parent{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 20px;
-}
-.lover-parent{
-  flex-direction: column;
-}
-.latest-cart-parent{
-  flex-direction: column;
-}
-.latest-cart-2{
+  .card-parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .lover-parent {
+    flex-direction: column;
+  }
+  .latest-cart-parent {
+    flex-direction: column;
+  }
+  .latest-cart-2 {
     width: 360px;
-  height: 206px;
-  border-radius: 20px;
-  margin: 28px;
-  text-align: center;
-  padding-top: 70px;
-} 
-.join-parent {
-  margin-left: 30px;
-  
-}
-.display-flex{
-  /* flex-direction: column;
-  gap: 50px;
-} */
+    height: 206px;
+    border-radius: 20px;
+    margin: 28px;
+    text-align: center;
+    padding-top: 70px;
+  }
+  .join-parent {
+    margin-left: 30px;
+  }
+  .display-flex {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .footer-item-parent
+  {
+   grid-template-columns: 1fr;
+   align-items: center;
+  }
+
 }

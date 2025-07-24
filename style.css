@@ -296,4 +296,19 @@
 .lover-parent{
   flex-direction: column;
 }
+.latest-cart-parent{
+  flex-direction: column;
+}
+.latest-cart-2{
+    width: 360px;
+  height: 206px;
+  border-radius: 20px;
+  margin: 28px;
+  text-align: center;
+  padding-top: 70px;
+} 
+.display-flex{
+  /* flex-direction: column;
+  gap: 50px;
+} */
 }

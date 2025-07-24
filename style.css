@@ -292,6 +292,10 @@
 @media screen and (max-width: 576px) {
   .banner {
     flex-direction:column-reverse;
+    
+  }
+  .banner-img{
+    width: 100%;
   }
   .card-parent {
     display: grid;

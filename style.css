@@ -120,6 +120,15 @@
   max-width: 650px;
   margin-top: -20px;
 }
+.left-pic{
+  position: relative;
+}
+.badge{
+  max-width: 200px;
+  position: absolute;
+  margin-top: -700px;
+  margin-left: 400px;
+}
 .lover-title {
   margin: 50px;
   font-weight: 500;
@@ -308,6 +317,9 @@
   /* lover section */
   .lover-parent {
     flex-direction: column;
+  }
+  .badge{
+    display: none;
   }
   .plant-title {
     margin-left: 100px;

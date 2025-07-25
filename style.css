@@ -325,6 +325,7 @@ margin-left: 50px;
 /* latest section */
 .latest-cart-parent{
   flex-direction: column;
+  margin-left: 80px;
 }
 .latest-cart-2{
   width: 360px;
@@ -333,12 +334,21 @@ margin-left: 50px;
   align-items: center;
   text-align: center;
   padding-top: 50px;
-  margin: 0 auto;
+  
 
+}
+.latest-cart-2{
+  margin-right: 20px;
 }
 .latest-parent{
   margin: 0 auto;
 }
+.latest-size{
+  align-items: center;
+margin-left: 100px;
+}
+
+
 /* join section */
 .join-parent{
   width: 425px;

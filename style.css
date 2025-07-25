@@ -42,7 +42,7 @@
 /* banner start from here */
 .banner {
   display: flex;
-  align-items: flex-end;
+  
 }
 .always {
   font-weight: 700;
@@ -296,4 +296,9 @@ display: none;
 text-align: end;
 }
 /* banner */
+.banner{
+  flex-direction:column-reverse;
+}
+/* cart item */
+
 }

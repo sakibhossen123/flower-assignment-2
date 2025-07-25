@@ -300,5 +300,13 @@ text-align: end;
   flex-direction:column-reverse;
 }
 /* cart item */
+.plant-title {
+  text-align: center;
+}
+.card-parent {
+  align-items: center;
+  grid-template-columns: repeat(2,1fr);
+}
+/* lo */
 
 }

@@ -66,6 +66,7 @@
 /* plant section */
 .plant-title {
   text-align: center;
+  
 }
 .our {
   font-weight: 700;
@@ -136,7 +137,7 @@
   margin: 20px;
 }
 /* join section */
-.join-parent {
+.join-parent{
   background-image: url("./assets/news-letter-bg.png");
   max-width: 1440px;
   height: 500px;
@@ -290,59 +291,9 @@
 /* cart section complete */
 
 @media screen and (max-width: 576px) {
-  
-.navbar ul :nth-child(1){
-  display: none;
+.navbar a{
+display: none;
+text-align: end;
 }
-
-  .banner {
-    flex-direction:column-reverse;
-    
-  }
-  .banner-img{
-    width: 100%;
-  }
-  .card-parent {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-  .lover-parent {
-    flex-direction: column;
-  }
-  .latest-cart-parent {
-    flex-direction: column;
-  }
-  .latest-cart-2 {
-    width: 360px;
-    height: 206px;
-    border-radius: 20px;
-    margin: 28px;
-    text-align: center;
-    padding-top: 70px;
-  }
-  .join-parent {
-    margin-left: 30px;
-    max-width: 100%;
-  }
-  .display-flex {
-    flex-direction: column;
-    margin: 0 10px;
-  }
-  .footer-item-parent
-  {
-   grid-template-columns: 1fr;
-   align-items: center;
-   
-  }
-  .plant-title{
-    align-items: center;
-  }
-  .lover-parent img{
-    margin: 18px;
-  }
-
-
-  
-
+/* banner */
 }

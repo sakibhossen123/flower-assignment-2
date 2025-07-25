@@ -333,7 +333,16 @@ text-align: end;
 /* join section */
 .join-parent{
   width: 425px;
-  margin-left: 50px;
+  margin-left: 40px;
 }
+/* footer section */
+.display-flex {
+  flex-direction: column;
+}
+.footer-item-parent{
+  display: grid;
+  grid-template-columns: 1fr;
+
+} 
 
 }

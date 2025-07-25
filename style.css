@@ -139,9 +139,10 @@
 /* join section */
 .join-parent{
   background-image: url("./assets/news-letter-bg.png");
-  max-width: 1440px;
+  width: 100%;
   height: 500px;
   margin: 0 auto;
+
 }
 .join-items {
   text-align: center;
@@ -329,4 +330,10 @@ text-align: end;
 .latest-parent{
   margin: 0 auto;
 }
+/* join section */
+.join-parent{
+  width: 425px;
+  margin-left: 50px;
+}
+
 }

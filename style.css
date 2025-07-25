@@ -309,10 +309,19 @@ text-align: end;
   grid-template-columns: repeat(2,1fr);
 }
 /* lover section */
-.lover-parent{
-  
-  flex-direction: column-reverse;
+.lover-parent{ 
+  flex-direction: column;
 }
+.lover-parent img{
+  margin-left: 20px;
+}
+.lover-size{
+  width: 100%;
+  text-align: center;
+margin-left: 50px;
+}
+  
+
 /* latest section */
 .latest-cart-parent{
   flex-direction: column;

@@ -304,6 +304,7 @@ text-align: end;
 .plant-title {
   text-align: center;
 }
+
 .card-parent {
   align-items: center;
   grid-template-columns: repeat(2,1fr);
@@ -311,6 +312,9 @@ text-align: end;
 /* lover section */
 .lover-parent{ 
   flex-direction: column;
+}
+.plant-title{
+  margin-left: 100px;
 }
 .lover-parent img{
   margin-left: 20px;

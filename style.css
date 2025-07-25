@@ -307,6 +307,26 @@ text-align: end;
   align-items: center;
   grid-template-columns: repeat(2,1fr);
 }
-/* lo */
+/* lover section */
+.lover-parent{
+  
+  flex-direction: column-reverse;
+}
+/* latest section */
+.latest-cart-parent{
+  flex-direction: column;
+}
+.latest-cart-2{
+  width: 360px;
+  height: 206px;
+  border-radius: 20px;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  margin: 0 auto;
 
+}
+.latest-parent{
+  margin: 0 auto;
+}
 }
